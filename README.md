@@ -3,7 +3,8 @@
 Task 1 (nginx-deploy.yaml)
 
 After deploying, Please check on which node the pods are created to check if the mount is working or not.
-------------------------------------
+
+-----------------------------------------------
 
 
 Task 2 (cerebro-test.yaml)
@@ -13,7 +14,7 @@ Pod is running. It might take a minute.
 ---------------------------------
 
 Task 3 (cerebro-test.yaml)
-Created an svc file, kubectl port-forward  podname 90:9000
+Created an svc file, kubectl port-forward  podname 90:9000.
 To test it "curl 127.0.0.1:90"
 
 
