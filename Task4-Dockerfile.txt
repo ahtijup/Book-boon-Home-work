@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+RUN echo "echo "Bookboon test"" > /tmp/script.sh &&\
+	echo "sleep 10" >> /tmp/script.sh &&\
+    echo "./script.sh" >> /tmp/script.sh &&\
+    chmod 777 /tmp/script.sh  
+WORKDIR /tmp
+CMD ["sh", "script.sh"]
